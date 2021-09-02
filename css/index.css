@@ -136,7 +136,7 @@ body::-webkit-scrollbar-thumb {
   background-position: right 0;
   background-size: contain;
 }
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .navbar-light .navbar-nav .nav-link {
     color: black;
   }
@@ -156,6 +156,11 @@ body::-webkit-scrollbar-thumb {
     padding-left: 150px;
   }
 }
+@media (min-width:992px) and (max-width:1002px) {
+  .nav-item{
+    font-size: .95rem !important;
+  }
+}
 @media (min-width: 1200px) {
   .h1,
   h1 {
@@ -166,7 +171,6 @@ body::-webkit-scrollbar-thumb {
   box-shadow: none;
   outline: none;
 }
-
 /***part2***/
 .part2 {
   background: url(../images/shape/dot-pattern.png);
@@ -210,7 +214,11 @@ body::-webkit-scrollbar-thumb {
 .imgPart4-2 {
   height: 80px;
 }
-@media screen and (max-width: 992px) {
+@media (max-width: 991px) {
+  .dropdown-submenu a:hover {
+    background: none !important;
+    color: white !important;
+  }
   .navbar-nav{
     padding-right: 25px;
   }
@@ -444,13 +452,13 @@ figure {
   border-radius: 50px;
 }
 .btnpart11 {
-  margin-right: -31%;
+  margin-right: -30.5%;
   border-radius: 50px 10px 10px 50px;
   padding: 10px;
   width: 30%;
   background: linear-gradient(90deg, #f5b884, #f161be) border-box;
 }
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
   .cardBox5{
     padding: 0;
   }
